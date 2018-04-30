@@ -39,7 +39,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Parallax className="container" ref="parallax" pages={4} horizontal scrolling={true}>
+        <Parallax className="container" ref="parallax" pages={4} horizontal scrolling={false}>
           <Page offset={0} gradient="pink" caption="I am" first="Sanchay Javeria" second="" onClick={() => this.scroll(1)} />
           <Page offset={1} gradient="teal" caption="what I do" first="Software Engineer at Pinterest" second="past Yahoo! Inc." onClick={() => this.scroll(2)} />
           <Page offset={2} gradient="tomato" caption="Besides programming, I like" first="Working out, Traveling, comics" second="EDM, Billiards, Swimming, anime" onClick={() => this.scroll(3)} />
