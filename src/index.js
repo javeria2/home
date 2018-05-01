@@ -43,7 +43,7 @@ class App extends React.Component {
         <Parallax className="container" ref="parallax" pages={4} horizontal scrolling={false}>
           <Page offset={0} gradient="pink" caption="I am 👋" first="Sanchay Javeria" second="" onClick={() => this.scroll(1)} />
           <Page offset={1} gradient="teal" caption="what I do 💻" first="Software Engineer at Pinterest" second="past Yahoo! Inc." onClick={() => this.scroll(2)} />
-          <Page offset={2} gradient="tomato" caption="Besides programming, I like 🌊" first="Working out, Traveling, comics" second="EDM, Billiards, Swimming, anime" onClick={() => this.scroll(3)} />
+          <Page offset={2} gradient="tomato" caption="Besides programming, I like 🌊" first="Working out, Traveling, comics" second="EDM, Billiards, anime" onClick={() => this.scroll(3)} />
           <Page offset={3} gradient="potato" caption="Get in touch ☕" first="sanchay [dot] javeria" second="[at] gmail [dot] com" onClick={() => this.scroll(0)} />
         </Parallax>
         <div style={styles.footer}>
