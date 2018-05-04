@@ -54,11 +54,11 @@ class Home extends React.Component {
         </Parallax>
         <div style={styles.footer}>
           <p>
-            <a title="Resume" href={ resume }><i className="fas fa-file-alt"></i></a>
-            <a title="Github" href="https://www.github.com/javeria2/"><i className="fab fa-github-alt"></i></a>
-            <a title="LinkedIn" href="https://www.linkedin.com/in/javeria2/"><i className="fab fa-linkedin"></i></a>
-            <a title="Medium" href="https://medium.com/@sanchay.javeria"><i className="fab fa-medium"></i></a>
-            <a title="Facebook" href="https://www.facebook.com/sanchay.javeria"><i className="fab fa-facebook"></i></a>
+            <a title="Resume" href={ resume } target="_blank"><i className="fas fa-file-alt"></i></a>
+            <a title="Github" href="https://www.github.com/javeria2/" target="_blank"><i className="fab fa-github-alt"></i></a>
+            <a title="LinkedIn" href="https://www.linkedin.com/in/javeria2/" target="_blank"><i className="fab fa-linkedin"></i></a>
+            <a title="Medium" href="https://medium.com/@sanchay.javeria" target="_blank"><i className="fab fa-medium"></i></a>
+            <a title="Facebook" href="https://www.facebook.com/sanchay.javeria" target="_blank"><i className="fab fa-facebook"></i></a>
           </p>
           <p>Built with <a className="anchor" href="https://github.com/drcmda/react-spring">react spring ♡</a></p>
         </div>
