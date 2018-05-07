@@ -49,7 +49,7 @@ class Home extends React.Component {
             onClick={() => this.refs.parallax.scrollTo(2)} />
           <Page offset={2} gradient="tomato" caption="Besides programming, I like 🌊" first="Working out, Traveling, comics" second="EDM, Billiards, anime"
             onClick={() => this.refs.parallax.scrollTo(3)} />
-          <Page offset={3} gradient="potato" caption="Get in touch ☕" first="sanchay [dot] javeria" second="[at] gmail [dot] com"
+          <Page offset={3} gradient="potato" caption="Get in touch 🍻" first="sanchay [dot] javeria" second="[at] gmail [dot] com"
             onClick={() => this.refs.parallax.scrollTo(0)} />
         </Parallax>
         <div style={styles.footer}>
