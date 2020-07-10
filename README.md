@@ -1,1 +1,1 @@
-https://javeria2.github.io/home
+https://sanchay0.github.io/home
