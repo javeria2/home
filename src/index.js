@@ -60,7 +60,7 @@ class Home extends React.Component {
             <a title="Medium" href="https://medium.com/@sanchay.javeria" target="_blank"><i className="fab fa-medium"></i></a>
             <a title="Facebook" href="https://www.facebook.com/sanchay.javeria" target="_blank"><i className="fab fa-facebook"></i></a>
           </p>
-          <p>Built with <a className="anchor" href="https://github.com/drcmda/react-spring">react spring ♡</a></p>
+          {/* <p>Built with <a className="anchor" href="https://github.com/drcmda/react-spring">react spring ♡</a></p> */}
         </div>
       </div>
     )
