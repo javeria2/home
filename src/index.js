@@ -12,11 +12,11 @@ import {
 
 const Page = ({ offset, caption, first, second, gradient, onClick }) => (
   <React.Fragment>
-    <Parallax.Layer offset={offset} speed={0.2} onClick={onClick}>
+    <Parallax.Layer offset={offset} speed={0.2}>
       <div className="slopeBegin" />
     </Parallax.Layer>
 
-    <Parallax.Layer offset={offset} speed={-0.2} onClick={onClick}>
+    <Parallax.Layer offset={offset} speed={-0.2}>
       <div className={`slopeEnd ${gradient}`} />
     </Parallax.Layer>
 
