@@ -30,7 +30,7 @@ const Page = ({ offset, caption, first, second, gradient, onClick }) => (
           <p style={{ fontSize: 20 }}>{caption}</p>
           <div className={`stripe ${gradient}`} />
           <p>{first}</p>
-          <p>{second}</p>
+          <p style={{ fontSize: 18 }}>{second}</p>
         </div>
 
       </div>
@@ -43,8 +43,8 @@ class Home extends React.Component {
     return (
       <div>
         <Parallax className="container" ref="parallax" pages={4} horizontal scrolling={false}>
-          <Page offset={0} gradient="pink" caption="I am 👋" first="Sanchay Javeria" second=""
-            onClick={() => this.refs.parallax.scrollTo(1)} />
+          <Page offset={0} gradient="pink" caption="I am 👋" first="Sanchay Javeria" second="Software Engineer at Pinterest" />
+             {/* onClick={() => this.refs.parallax.scrollTo(1)} /> */}
           <Page offset={1} gradient="teal" caption="what I do 💻" first="SWE Intern at Pinterest" second="past Yahoo! Inc."
             onClick={() => this.refs.parallax.scrollTo(2)} />
           <Page offset={2} gradient="tomato" caption="Besides programming, I like 🌊" first="Working out, Traveling, comics" second="EDM, Billiards, anime"
