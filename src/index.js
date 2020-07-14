@@ -58,8 +58,8 @@ class Home extends React.Component {
             <a title="Github" href="https://www.github.com/javeria2/" target="_blank"><i className="fab fa-github"></i></a>
             <a title="LinkedIn" href="https://www.linkedin.com/in/javeria2/" target="_blank"><i className="fab fa-linkedin"></i></a>
             <a title="Medium" href="https://medium.com/@sanchay.javeria" target="_blank"><i className="fab fa-medium"></i></a>
-            <a title="Facebook" href="https://twitter.com/sanchayjaveria" target="_blank"><i className="fab fa-twitter"></i></a>
-            <a title="Facebook" href="https://www.instagram.com/sanchayjaveria" target="_blank"><i className="fab fa-instagram"></i></a>
+            <a title="Twitter" href="https://twitter.com/sanchayjaveria" target="_blank"><i className="fab fa-twitter"></i></a>
+            <a title="Instagram" href="https://www.instagram.com/sanchayjaveria" target="_blank"><i className="fab fa-instagram"></i></a>
           </p>
           {/* <p>Built with <a className="anchor" href="https://github.com/drcmda/react-spring">react spring ♡</a></p> */}
         </div>
