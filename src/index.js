@@ -55,7 +55,7 @@ class Home extends React.Component {
         <div style={styles.footer}>
           <p>
             <a title="Resume" href={ resume } target="_blank"><i className="fas fa-file-alt"></i></a>
-            <a title="Github" href="https://www.github.com/javeria2/" target="_blank"><i className="fab fa-github"></i></a>
+            <a title="Github" href="https://www.github.com/sanchay0/" target="_blank"><i className="fab fa-github"></i></a>
             <a title="LinkedIn" href="https://www.linkedin.com/in/javeria2/" target="_blank"><i className="fab fa-linkedin"></i></a>
             <a title="Medium" href="https://medium.com/@sanchay.javeria" target="_blank"><i className="fab fa-medium"></i></a>
             <a title="Twitter" href="https://twitter.com/sanchayjaveria" target="_blank"><i className="fab fa-twitter"></i></a>
